@@ -1,5 +1,5 @@
-<svg class="logo-mark" viewBox="0 0 48 48" fill="none">
-        <circle cx="24" cy="24" r="22" stroke="#c9a15d" stroke-width="1.4"/>
-        <path d="M24 10c5 4 8 9 8 14a8 8 0 1 1-16 0c0-5 3-10 8-14z" fill="#c9a15d" opacity="0.9"/>
-        <path d="M24 14c-3 3-5 6.5-5 10a5 5 0 0 0 10 0c0-3.5-2-7-5-10z" fill="#2f4a34"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <circle cx="24" cy="24" r="22" stroke="#c9a15d" stroke-width="1.4"/>
+  <path d="M24 10c5 4 8 9 8 14a8 8 0 1 1-16 0c0-5 3-10 8-14z" fill="#c9a15d" opacity="0.9"/>
+  <path d="M24 14c-3 3-5 6.5-5 10a5 5 0 0 0 10 0c0-3.5-2-7-5-10z" fill="#2f4a34"/>
 </svg>

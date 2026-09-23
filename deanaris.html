@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,21 +30,22 @@
     </div>
     <nav id="mainNav">
       <ul>
-        <li><a href="#beranda" class="nav-link" data-i18n="nav_home">Beranda</a></li>
-        <li><a href="#profil" class="nav-link" data-i18n="nav_profile">Profil</a></li>
-        <li><a href="#produk" class="nav-link" data-i18n="nav_products">Produk</a></li>
-        <li><a href="#destinasi" class="nav-link" data-i18n="nav_destination">Destinasi Ekspor</a></li>
-        <li><a href="#galeri" class="nav-link" data-i18n="nav_gallery">Galeri</a></li>
-        <li><a href="#kontak" class="nav-link" data-i18n="nav_contact">Kontak</a></li>
+        <li><a href="#beranda" class="nav-link" data-i18n="nav_home">Home</a></li>
+        <li><a href="#profil" class="nav-link" data-i18n="nav_profile">About Us</a></li>
+        <li><a href="#keunggulan" class="nav-link" data-i18n="nav_terms">Trade Terms</a></li>
+        <li><a href="#produk" class="nav-link" data-i18n="nav_products">Products</a></li>
+        <li><a href="#destinasi" class="nav-link" data-i18n="nav_destination">Export Destinations</a></li>
+        <li><a href="#galeri" class="nav-link" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="#kontak" class="nav-link" data-i18n="nav_contact">Contact</a></li>
       </ul>
       <div class="lang-switch lang-switch-mobile">
-        <button class="lang-btn active" data-lang="id">ID</button>
-        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="id">ID</button>
       </div>
     </nav>
     <div class="lang-switch lang-switch-desktop">
-      <button class="lang-btn active" data-lang="id">ID</button>
-      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="id">ID</button>
     </div>
     <button class="burger" id="burgerBtn" aria-label="Menu">
       <span></span><span></span><span></span>
@@ -55,20 +56,20 @@
 <!-- ===== HERO ===== -->
 <section class="hero" id="beranda">
   <div class="hero-slides" id="heroSlides">
-    <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=1600&auto=format&fit=crop&q=80')"></div>
-    <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1544378730-8b5104b18790?w=1600&auto=format&fit=crop&q=80')"></div>
-    <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1532336414038-cf19250c5757?w=1600&auto=format&fit=crop&q=80')"></div>
-    <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1600&auto=format&fit=crop&q=80')"></div>
+    <div class="hero-slide active" style="background-image:url('images/coffe-plant.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/toraja-arabica-special grade.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/toraja-robusta-specialgrade.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/brief.jpg')"></div>
   </div>
   <div class="hero-overlay"></div>
 
   <div class="hero-content container">
     <span class="eyebrow">PT Deanaris Tani Export</span>
-    <h1 data-i18n="hero_title" data-i18n-html="true">Trader rempah-rempah &amp; olahan kelapa <em>berkualitas asli Indonesia</em></h1>
-    <p data-i18n="hero_desc">Menghubungkan hasil bumi terbaik nusantara dengan pasar dunia — dipilih, diproses, dan dikirim dengan standar mutu ekspor.</p>
+    <h1 data-i18n="hero_title" data-i18n-html="true">Premium Toraja Green Coffee Beans</h1>
+    <p data-i18n="hero_desc">Exporting special grade Semi-Washed Arabica and Robusta directly from the highlands of Toraja, Indonesia. Meticulously processed for the global market.</p>
     <div class="hero-btns">
-      <a href="#produk" class="btn btn-primary" data-i18n="hero_btn_products">Lihat Produk Kami</a>
-      <a href="#kontak" class="btn btn-outline" data-i18n="hero_btn_contact">Hubungi Kami</a>
+      <a href="#kontak" class="btn btn-primary" data-i18n="hero_btn_pricing">Get Latest Price</a>
+      <a href="#produk" class="btn btn-outline" data-i18n="hero_btn_products">View Products</a>
     </div>
   </div>
 
@@ -84,7 +85,7 @@
       <g class="seal-ring">
         <path id="sealPath" d="M 64,64 m -50,0 a 50,50 0 1,1 100,0 a 50,50 0 1,1 -100,0" fill="none"/>
         <text font-size="10.2" fill="#f4ecd8" letter-spacing="2.5">
-          <textPath href="#sealPath" startOffset="0%">• 100% ASLI INDONESIA • TERPERCAYA SEJAK AWAL • QUALITY EXPORT •</textPath>
+          <textPath href="#sealPath" startOffset="0%">• 100% TORAJA ORIGIN • SPECIAL GRADE EXPORT • PREMIER QUALITY •</textPath>
         </text>
       </g>
       <circle cx="64" cy="64" r="34" fill="none" stroke="#c9a15d" stroke-width="1.2"/>
@@ -93,181 +94,179 @@
   </div>
 </section>
 
-<!-- ===== PROFIL ===== -->
+<!-- ===== ABOUT US (PROFIL) ===== -->
 <section id="profil">
   <div class="container profile-grid">
     <div class="profile-visual">
-      <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&auto=format&fit=crop&q=80" alt="Fasilitas & Gudang PT Deanaris Tani Export" loading="lazy">
+      <img src="images/coffe-plant.jpg" alt="Toraja Coffee Plantation - PT Deanaris Tani Export" loading="lazy">
       <div class="profile-badge">
-        <div class="num">15+</div>
-        <div class="lbl" data-i18n="profile_badge">Negara tujuan ekspor</div>
+        <div class="num">100%</div>
+        <div class="lbl" data-i18n="profile_badge">Toraja Origin</div>
       </div>
     </div>
     <div class="profile-text">
-      <span class="eyebrow" data-i18n="profile_eyebrow">Profil Perusahaan</span>
-      <h2>PT Deanaris Tani Export</h2>
-      <p data-i18n="profile_p1" data-i18n-html="true"><b>PT Deanaris Tani Export</b> adalah eksportir rempah-rempah dan olahan kelapa yang berkomitmen menghadirkan produk asli Indonesia dengan standar mutu internasional. Setiap bahan baku kami pilih langsung dari petani lokal terbaik, melalui proses seleksi dan pengolahan yang ketat.</p>
-      <p data-i18n="profile_p2" data-i18n-html="true">Kami percaya bahwa kepercayaan mitra dagang dibangun dari konsistensi kualitas dan transparansi proses. Karena itu, kami hadir sebagai eksportir yang <b>dapat dipercaya</b>, mengutamakan mutu produk di setiap pengiriman — dari kebun hingga ke tangan pembeli di seluruh dunia.</p>
+      <span class="eyebrow" data-i18n="profile_eyebrow">About Us</span>
+      <h2 data-i18n="profile_title">Export-Quality Toraja Coffee</h2>
+      <p data-i18n="profile_p1">We specialize in supplying premium green coffee beans strictly from the Toraja region. By focusing purely on Semi-Washed processing, we maintain the authentic, bold, and clean flavor profiles that international roasters demand. With a commitment to quality and consistency, we are ready to fulfill high-volume export requirements for your coffee business.</p>
       <div class="profile-stats">
-        <div class="stat"><b>10+</b><span data-i18n="stat_years">Tahun Pengalaman</span></div>
-        <div class="stat"><b>200+</b><span data-i18n="stat_partners">Mitra Dagang</span></div>
-        <div class="stat"><b>100%</b><span data-i18n="stat_local">Bahan Asli Lokal</span></div>
+        <div class="stat"><b>80+</b><span data-i18n="stat_cup">Cup Score (Arabica)</span></div>
+        <div class="stat"><b>10 MT</b><span data-i18n="stat_moq">Minimum Order (MOQ)</span></div>
+        <div class="stat"><b>&le; 12%</b><span data-i18n="stat_moisture">Moisture Content</span></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== KEUNGGULAN ===== -->
+<!-- ===== TRADE & EXPORT TERMS (KEUNGGULAN) ===== -->
 <section id="keunggulan">
   <div class="container">
     <div class="section-head center">
-      <span class="eyebrow" data-i18n="why_eyebrow">Kenapa Memilih Kami</span>
-      <h2 data-i18n="why_title">Standar mutu yang menjadi alasan mitra kami bertahan</h2>
+      <span class="eyebrow" data-i18n="why_eyebrow">Trade Specifications</span>
+      <h2 data-i18n="why_title">Export Capabilities &amp; Trade Terms</h2>
     </div>
     <div class="feature-grid">
+      <!-- 1. MOQ -->
       <div class="feature-card">
         <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
-          <path d="M12 2l3 6 6 1-4.5 4.3L17.5 20 12 16.8 6.5 20l1-6.7L3 9l6-1 3-6z"/>
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
         </svg>
-        <h3 data-i18n="feat1_title">Kualitas Premium</h3>
-        <p data-i18n="feat1_desc">Produk dipilih dan disortir manual untuk memastikan hanya hasil terbaik yang sampai ke tangan mitra ekspor kami.</p>
+        <h3 data-i18n="feat1_title">Minimum Order Quantity (MOQ)</h3>
+        <p data-i18n="feat1_desc"><strong>10 Metric Tons</strong>. Fulfilling commercial bulk roasting and international green coffee distribution needs.</p>
       </div>
+
+      <!-- 2. Pricing -->
       <div class="feature-card">
         <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
-          <path d="M12 3l8 4v5c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V7l8-4z"/>
+          <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+          <line x1="7" y1="7" x2="7.01" y2="7"/>
         </svg>
-        <h3 data-i18n="feat2_title">Eksportir Terpercaya</h3>
-        <p data-i18n="feat2_desc">Berpengalaman menangani pengiriman lintas negara dengan dokumentasi dan komunikasi yang transparan.</p>
+        <h3 data-i18n="feat2_title">Pricing</h3>
+        <p data-i18n="feat2_desc">Highly competitive pricing available upon request. Contact us via WhatsApp or Email.</p>
       </div>
+
+      <!-- 3. Delivery Terms -->
       <div class="feature-card">
         <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
-          <path d="M4 12l5 5L20 6"/>
+          <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.5 0 2.5 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+          <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/>
+          <path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/>
+          <line x1="12" y1="1" x2="12" y2="5"/>
         </svg>
-        <h3 data-i18n="feat3_title">Sumber Langsung Petani</h3>
-        <p data-i18n="feat3_desc">Kemitraan langsung dengan petani lokal menjaga keaslian rasa sekaligus kesejahteraan produsen di daerah asal.</p>
+        <h3 data-i18n="feat3_title">Delivery Terms</h3>
+        <p data-i18n="feat3_desc">FOB (Recommended). Open to discussing CIF based on specific requirements.</p>
+      </div>
+
+      <!-- 4. Payment Terms -->
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+          <line x1="1" y1="10" x2="23" y2="10"/>
+        </svg>
+        <h3 data-i18n="feat4_title">Payment Terms</h3>
+        <p data-i18n="feat4_desc">T/T (Telegraphic Transfer). 50% Down Payment to secure the order, 50% balance payable upon issuance of the Bill of Lading (B/L).</p>
+      </div>
+
+      <!-- 5. Export Documentation -->
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="16" y1="13" x2="8" y2="13"/>
+          <line x1="16" y1="17" x2="8" y2="17"/>
+          <polyline points="10 9 9 9 8 9"/>
+        </svg>
+        <h3 data-i18n="feat5_title">Export Documentation</h3>
+        <p data-i18n="feat5_desc">Fully prepared and compliant. Ready with Certificate of Origin (COO), Phytosanitary Certificate, B/L, Commercial Invoice &amp; Packing List.</p>
+      </div>
+
+      <!-- 6. Packaging -->
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <h3 data-i18n="feat6_title">Packaging</h3>
+        <p data-i18n="feat6_desc">Standard export 60kg jute bags with optional protective GrainPro liners to safeguard freshness.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== PROSES ===== -->
+<!-- ===== PROSES (WORKFLOW) ===== -->
 <section id="proses">
   <div class="container">
     <div class="section-head center">
-      <span class="eyebrow" data-i18n="process_eyebrow">Alur Kerja</span>
-      <h2 data-i18n="process_title">Proses ekspor kami, dari kebun hingga pelabuhan</h2>
+      <span class="eyebrow" data-i18n="process_eyebrow">Quality Workflow</span>
+      <h2 data-i18n="process_title">From Toraja Highlands to Global Ports</h2>
     </div>
     <div class="process-grid">
       <div class="process-step">
         <div class="process-num">01</div>
-        <h3 data-i18n="proc1_title">Sortir Bahan Baku</h3>
-        <p data-i18n="proc1_desc">Rempah dan kelapa dipilih langsung dari petani mitra sesuai standar mutu.</p>
+        <h3 data-i18n="proc1_title">Selective Harvesting</h3>
+        <p data-i18n="proc1_desc">Only mature, red coffee cherries handpicked from high-altitude Toraja volcanic soils.</p>
       </div>
       <div class="process-step">
         <div class="process-num">02</div>
-        <h3 data-i18n="proc2_title">Kontrol Kualitas</h3>
-        <p data-i18n="proc2_desc">Pemeriksaan kadar air, aroma, dan kebersihan sebelum masuk pengolahan.</p>
+        <h3 data-i18n="proc2_title">Semi-Washed Hulling</h3>
+        <p data-i18n="proc2_desc">Pulping and wet-hulling to preserve authentic earthy undertones and vibrant acidity.</p>
       </div>
       <div class="process-step">
         <div class="process-num">03</div>
-        <h3 data-i18n="proc3_title">Pengemasan</h3>
-        <p data-i18n="proc3_desc">Dikemas rapi dan aman sesuai kebutuhan pengiriman ekspor jarak jauh.</p>
+        <h3 data-i18n="proc3_title">Drying &amp; Sorting</h3>
+        <p data-i18n="proc3_desc">Sun-dried to maximum 12% moisture with multi-stage screen grading and defect sorting.</p>
       </div>
       <div class="process-step">
         <div class="process-num">04</div>
-        <h3 data-i18n="proc4_title">Pengiriman</h3>
-        <p data-i18n="proc4_desc">Dokumentasi lengkap dan pengiriman terpantau hingga sampai ke tujuan.</p>
+        <h3 data-i18n="proc4_title">Export Packaging</h3>
+        <p data-i18n="proc4_desc">Packed in 60kg jute bags with complete export documentation and prompt ocean freight dispatch.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== PRODUK ===== -->
+<!-- ===== PRODUCTS ===== -->
 <section id="produk">
   <div class="container">
     <div class="section-head">
-      <span class="eyebrow" data-i18n="products_eyebrow">Produk Kami</span>
-      <h2 data-i18n="products_title">Rempah pilihan &amp; olahan kelapa berkualitas ekspor</h2>
-      <p data-i18n="products_desc">Dua lini produk utama kami, diproses dengan standar mutu yang konsisten untuk kebutuhan pasar internasional.</p>
+      <span class="eyebrow" data-i18n="products_eyebrow">Our Products</span>
+      <h2 data-i18n="products_title">Toraja Green Coffee Beans</h2>
+      <p data-i18n="products_desc">Cultivated in the fertile highlands of South Sulawesi, our Toraja Arabica and Robusta green coffee beans deliver exceptional character for specialty roasters worldwide.</p>
     </div>
 
     <div class="product-tabs">
-      <button class="product-tab active" data-cat="rempah" data-i18n="tab_spices">Rempah-Rempah</button>
-      <button class="product-tab" data-cat="kelapa" data-i18n="tab_coconut">Olahan Kelapa</button>
+      <button class="product-tab active" data-cat="all" data-i18n="tab_all">All Varieties</button>
+      <button class="product-tab" data-cat="arabica" data-i18n="tab_arabica">Toraja Arabica</button>
+      <button class="product-tab" data-cat="robusta" data-i18n="tab_robusta">Toraja Robusta</button>
     </div>
 
-    <div class="product-grid" id="productGrid">
-      <div class="product-card rempah show">
-        <div class="product-img"><img src="https://images.unsplash.com/photo-1608686207856-001b95cf60ca?w=600&auto=format&fit=crop&q=80" alt="Cengkeh Kering" loading="lazy"></div>
-        <h4 data-i18n="prod_cengkeh">Cengkeh Kering</h4>
-        <span class="product-badge" data-i18n="grade_a">Grade Ekspor A</span>
-        <button type="button" class="btn-product-order" data-prod="Cengkeh Kering" data-grade="Grade Ekspor A" data-img="https://images.unsplash.com/photo-1608686207856-001b95cf60ca?w=600&auto=format&fit=crop&q=80">
+    <div class="product-grid" id="productGrid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 380px)); justify-content: center;">
+      <!-- Product Card 1: Arabica -->
+      <div class="product-card arabica show">
+        <div class="product-img">
+          <img src="images/toraja-arabica-special grade.jpg" alt="Toraja Arabica Green Coffee Beans" loading="lazy">
+        </div>
+        <h4 data-i18n="prod_arabica_title">Toraja Arabica</h4>
+        <span class="product-badge" data-i18n="prod_arabica_specs">Specialty Grade (Cup Score 80+) | Semi-Washed (Wet-Hulled) | Moisture: Max 12%</span>
+        <p class="product-desc" style="font-size:0.9rem; color:#5a5044; margin-bottom:16px; line-height:1.55;" data-i18n="prod_arabica_desc">Cultivated in high altitudes, offering a well-balanced body, bright acidity, and deep notes of dark chocolate and fruit.</p>
+        <button type="button" class="btn-product-order" data-prod="Toraja Arabica Green Coffee Beans" data-grade="Specialty Grade (Cup Score 80+) | Semi-Washed | Moisture: Max 12%" data-img="images/toraja-arabica-special grade.jpg">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="btn_order_inquire">Pesan / Diskusi</span>
-        </button>
-      </div>
-      <div class="product-card rempah show">
-        <div class="product-img"><img src="https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=600&auto=format&fit=crop&q=80" alt="Kayu Manis" loading="lazy"></div>
-        <h4 data-i18n="prod_kayumanis">Kayu Manis</h4>
-        <span class="product-badge" data-i18n="grade_a">Grade Ekspor A</span>
-        <button type="button" class="btn-product-order" data-prod="Kayu Manis" data-grade="Grade Ekspor A" data-img="https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=600&auto=format&fit=crop&q=80">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="btn_order_inquire">Pesan / Diskusi</span>
-        </button>
-      </div>
-      <div class="product-card rempah show">
-        <div class="product-img"><img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=600&auto=format&fit=crop&q=80" alt="Biji Pala" loading="lazy"></div>
-        <h4 data-i18n="prod_pala">Biji Pala</h4>
-        <span class="product-badge" data-i18n="grade_a">Grade Ekspor A</span>
-        <button type="button" class="btn-product-order" data-prod="Biji Pala" data-grade="Grade Ekspor A" data-img="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=600&auto=format&fit=crop&q=80">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="btn_order_inquire">Pesan / Diskusi</span>
-        </button>
-      </div>
-      <div class="product-card rempah show">
-        <div class="product-img"><img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&auto=format&fit=crop&q=80" alt="Lada Hitam" loading="lazy"></div>
-        <h4 data-i18n="prod_lada">Lada Hitam</h4>
-        <span class="product-badge" data-i18n="grade_a">Grade Ekspor A</span>
-        <button type="button" class="btn-product-order" data-prod="Lada Hitam" data-grade="Grade Ekspor A" data-img="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&auto=format&fit=crop&q=80">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="btn_order_inquire">Pesan / Diskusi</span>
+          <span data-i18n="btn_order_inquire">Inquire / Order</span>
         </button>
       </div>
 
-      <div class="product-card kelapa">
-        <div class="product-img"><img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=600&auto=format&fit=crop&q=80" alt="VCO" loading="lazy"></div>
-        <h4 data-i18n="prod_vco">Minyak Kelapa Murni (VCO)</h4>
-        <span class="product-badge" data-i18n="prod_vco_sub">Cold Pressed</span>
-        <button type="button" class="btn-product-order" data-prod="Minyak Kelapa Murni (VCO)" data-grade="Cold Pressed" data-img="https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=600&auto=format&fit=crop&q=80">
+      <!-- Product Card 2: Robusta -->
+      <div class="product-card robusta show">
+        <div class="product-img">
+          <img src="images/toraja-robusta-specialgrade.jpg" alt="Toraja Robusta Green Coffee Beans" loading="lazy">
+        </div>
+        <h4 data-i18n="prod_robusta_title">Toraja Robusta</h4>
+        <span class="product-badge" data-i18n="prod_robusta_specs">Special Grade Export | Semi-Washed | Moisture: Max 12%</span>
+        <p class="product-desc" style="font-size:0.9rem; color:#5a5044; margin-bottom:16px; line-height:1.55;" data-i18n="prod_robusta_desc">A bold, heavy-bodied bean with a clean cup, delivering strong, earthy, and rich nutty notes perfect for espresso blends.</p>
+        <button type="button" class="btn-product-order" data-prod="Toraja Robusta Green Coffee Beans" data-grade="Special Grade Export | Semi-Washed | Moisture: Max 12%" data-img="images/toraja-robusta-specialgrade.jpg">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="btn_order_inquire">Pesan / Diskusi</span>
-        </button>
-      </div>
-      <div class="product-card kelapa">
-        <div class="product-img"><img src="https://images.unsplash.com/photo-1544378730-8b5104b18790?w=600&auto=format&fit=crop&q=80" alt="Kelapa Parut Kering" loading="lazy"></div>
-        <h4 data-i18n="prod_desiccated">Kelapa Parut Kering</h4>
-        <span class="product-badge" data-i18n="prod_desiccated_sub">Desiccated Coconut</span>
-        <button type="button" class="btn-product-order" data-prod="Kelapa Parut Kering" data-grade="Desiccated Coconut" data-img="https://images.unsplash.com/photo-1544378730-8b5104b18790?w=600&auto=format&fit=crop&q=80">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="btn_order_inquire">Pesan / Diskusi</span>
-        </button>
-      </div>
-      <div class="product-card kelapa">
-        <div class="product-img"><img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop&q=80" alt="Gula Kelapa" loading="lazy"></div>
-        <h4 data-i18n="prod_gula">Gula Kelapa</h4>
-        <span class="product-badge" data-i18n="prod_gula_sub">Organik</span>
-        <button type="button" class="btn-product-order" data-prod="Gula Kelapa" data-grade="Organik" data-img="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop&q=80">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="btn_order_inquire">Pesan / Diskusi</span>
-        </button>
-      </div>
-      <div class="product-card kelapa">
-        <div class="product-img"><img src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=600&auto=format&fit=crop&q=80" alt="Arang Batok Kelapa" loading="lazy"></div>
-        <h4 data-i18n="prod_arang">Arang Batok Kelapa</h4>
-        <span class="product-badge" data-i18n="prod_arang_sub">Briket Ekspor</span>
-        <button type="button" class="btn-product-order" data-prod="Arang Batok Kelapa" data-grade="Briket Ekspor" data-img="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=600&auto=format&fit=crop&q=80">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="btn_order_inquire">Pesan / Diskusi</span>
+          <span data-i18n="btn_order_inquire">Inquire / Order</span>
         </button>
       </div>
     </div>
@@ -279,15 +278,15 @@
   <div class="container">
     <div class="destinasi-head-wrap">
       <div class="section-head">
-        <span class="eyebrow" data-i18n="destinasi_eyebrow">Jangkauan Global</span>
-        <h2 data-i18n="destinasi_title">15 Negara Tujuan Ekspor Produk Kami</h2>
-        <p data-i18n="destinasi_desc">Komitmen mutu mengantarkan rempah pilihan dan olahan kelapa PT Deanaris Tani Export dipercaya mitra dagang lintas benua.</p>
+        <span class="eyebrow" data-i18n="destinasi_eyebrow">Global Reach</span>
+        <h2 data-i18n="destinasi_title">15 Global Export Destinations</h2>
+        <p data-i18n="destinasi_desc">Supplying premium Toraja green coffee beans to roasters, specialty importers, and distributors across continents.</p>
       </div>
       <div class="slider-nav-btns">
-        <button class="slider-nav-btn" id="exportSlidePrev" aria-label="Negara Sebelumnya">
+        <button class="slider-nav-btn" id="exportSlidePrev" aria-label="Previous Country">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
         </button>
-        <button class="slider-nav-btn" id="exportSlideNext" aria-label="Negara Selanjutnya">
+        <button class="slider-nav-btn" id="exportSlideNext" aria-label="Next Country">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
         </button>
       </div>
@@ -295,173 +294,173 @@
 
     <div class="export-slider-container" id="exportSliderContainer">
       <div class="export-slider-track" id="exportSliderTrack">
-        <!-- 1. Jepang -->
+        <!-- 1. Japan -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=600&auto=format&fit=crop&q=80" alt="Jepang" loading="lazy">
-            <div class="export-flag" title="Jepang">🇯🇵</div>
+            <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=600&auto=format&fit=crop&q=80" alt="Japan" loading="lazy">
+            <div class="export-flag" title="Japan">🇯🇵</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_japan">Jepang</h3>
+            <h3 class="export-card-title" data-i18n="country_japan">Japan</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Tokyo &amp; Yokohama</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_japan">Cengkeh Kering, VCO &amp; Rempah Pilihan</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_japan">Toraja Arabica Specialty Grade (Cup 80+)</span>
             </div>
           </div>
         </div>
 
-        <!-- 2. Jerman -->
+        <!-- 2. Germany -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&auto=format&fit=crop&q=80" alt="Jerman" loading="lazy">
-            <div class="export-flag" title="Jerman">🇩🇪</div>
+            <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&auto=format&fit=crop&q=80" alt="Germany" loading="lazy">
+            <div class="export-flag" title="Germany">🇩🇪</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_germany">Jerman</h3>
+            <h3 class="export-card-title" data-i18n="country_germany">Germany</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Hamburg</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_germany">Kelapa Parut Kering &amp; Biji Pala</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_germany">Semi-Washed Arabica &amp; Robusta Green Beans</span>
             </div>
           </div>
         </div>
 
-        <!-- 3. Amerika Serikat -->
+        <!-- 3. United States -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?w=600&auto=format&fit=crop&q=80" alt="Amerika Serikat" loading="lazy">
-            <div class="export-flag" title="Amerika Serikat">🇺🇸</div>
+            <img src="https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?w=600&auto=format&fit=crop&q=80" alt="United States" loading="lazy">
+            <div class="export-flag" title="United States">🇺🇸</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_usa">Amerika Serikat</h3>
+            <h3 class="export-card-title" data-i18n="country_usa">United States</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Los Angeles &amp; Long Beach</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_usa">Briket Arang Batok &amp; Gula Kelapa</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_usa">Bulk Toraja Arabica Specialty &amp; Espresso Robusta</span>
             </div>
           </div>
         </div>
 
-        <!-- 4. Belanda -->
+        <!-- 4. Netherlands -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=600&auto=format&fit=crop&q=80" alt="Belanda" loading="lazy">
-            <div class="export-flag" title="Belanda">🇳🇱</div>
+            <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=600&auto=format&fit=crop&q=80" alt="Netherlands" loading="lazy">
+            <div class="export-flag" title="Netherlands">🇳🇱</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_netherlands">Belanda</h3>
+            <h3 class="export-card-title" data-i18n="country_netherlands">Netherlands</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Rotterdam</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_netherlands">Cengkeh Kering, Lada Hitam &amp; VCO</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_netherlands">European Hub Distribution - Toraja Arabica</span>
             </div>
           </div>
         </div>
 
-        <!-- 5. Uni Emirat Arab -->
+        <!-- 5. United Arab Emirates -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&auto=format&fit=crop&q=80" alt="Uni Emirat Arab" loading="lazy">
-            <div class="export-flag" title="Uni Emirat Arab">🇦🇪</div>
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&auto=format&fit=crop&q=80" alt="United Arab Emirates" loading="lazy">
+            <div class="export-flag" title="United Arab Emirates">🇦🇪</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_uae">Uni Emirat Arab</h3>
+            <h3 class="export-card-title" data-i18n="country_uae">United Arab Emirates</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Jebel Ali, Dubai</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_uae">Briket Arang Kelapa &amp; Rempah</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_uae">Specialty Grade Arabica &amp; Heavy Robusta</span>
             </div>
           </div>
         </div>
 
-        <!-- 6. Tiongkok -->
+        <!-- 6. China -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=600&auto=format&fit=crop&q=80" alt="Tiongkok" loading="lazy">
-            <div class="export-flag" title="Tiongkok">🇨🇳</div>
+            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=600&auto=format&fit=crop&q=80" alt="China" loading="lazy">
+            <div class="export-flag" title="China">🇨🇳</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_china">Tiongkok</h3>
+            <h3 class="export-card-title" data-i18n="country_china">China</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Shanghai &amp; Ningbo</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_china">Olahan Kelapa, Kayu Manis &amp; Pala</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_china">Commercial Bulk Green Coffee Beans</span>
             </div>
           </div>
         </div>
 
-        <!-- 7. Korea Selatan -->
+        <!-- 7. South Korea -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1538485399081-7191377e8241?w=600&auto=format&fit=crop&q=80" alt="Korea Selatan" loading="lazy">
-            <div class="export-flag" title="Korea Selatan">🇰🇷</div>
+            <img src="https://images.unsplash.com/photo-1538485399081-7191377e8241?w=600&auto=format&fit=crop&q=80" alt="South Korea" loading="lazy">
+            <div class="export-flag" title="South Korea">🇰🇷</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_korea">Korea Selatan</h3>
+            <h3 class="export-card-title" data-i18n="country_korea">South Korea</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Busan</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_korea">VCO, Gula Kelapa &amp; Biji Pala</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_korea">Single Origin Toraja Arabica Specialty</span>
             </div>
           </div>
         </div>
 
-        <!-- 8. Singapura -->
+        <!-- 8. Singapore -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=600&auto=format&fit=crop&q=80" alt="Singapura" loading="lazy">
-            <div class="export-flag" title="Singapura">🇸🇬</div>
+            <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=600&auto=format&fit=crop&q=80" alt="Singapore" loading="lazy">
+            <div class="export-flag" title="Singapore">🇸🇬</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_singapore">Singapura</h3>
+            <h3 class="export-card-title" data-i18n="country_singapore">Singapore</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Singapore</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_singapore">Rempah Pilihan &amp; Kelapa Parut</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_singapore">Toraja Semi-Washed Arabica &amp; Robusta</span>
             </div>
           </div>
         </div>
 
-        <!-- 9. Arab Saudi -->
+        <!-- 9. Saudi Arabia -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=600&auto=format&fit=crop&q=80" alt="Arab Saudi" loading="lazy">
-            <div class="export-flag" title="Arab Saudi">🇸🇦</div>
+            <img src="https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=600&auto=format&fit=crop&q=80" alt="Saudi Arabia" loading="lazy">
+            <div class="export-flag" title="Saudi Arabia">🇸🇦</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_saudi">Arab Saudi</h3>
+            <h3 class="export-card-title" data-i18n="country_saudi">Saudi Arabia</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Jeddah Islamic</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_saudi">Briket Arang Batok &amp; Cengkeh</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_saudi">Toraja Green Coffee Beans (60kg Jute Bags)</span>
             </div>
           </div>
         </div>
@@ -479,103 +478,103 @@
               <span>Port of Sydney &amp; Melbourne</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_australia">VCO Organik &amp; Rempah Kering</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_australia">Specialty Grade Toraja Arabica 80+</span>
             </div>
           </div>
         </div>
 
-        <!-- 11. Britania Raya -->
+        <!-- 11. United Kingdom -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&auto=format&fit=crop&q=80" alt="Britania Raya" loading="lazy">
-            <div class="export-flag" title="Britania Raya">🇬🇧</div>
+            <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&auto=format&fit=crop&q=80" alt="United Kingdom" loading="lazy">
+            <div class="export-flag" title="United Kingdom">🇬🇧</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_uk">Britania Raya</h3>
+            <h3 class="export-card-title" data-i18n="country_uk">United Kingdom</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Southampton &amp; London</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_uk">Gula Kelapa &amp; Kayu Manis</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_uk">Toraja Specialty Arabica Single Origin</span>
             </div>
           </div>
         </div>
 
-        <!-- 12. Kanada -->
+        <!-- 12. Canada -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=600&auto=format&fit=crop&q=80" alt="Kanada" loading="lazy">
-            <div class="export-flag" title="Kanada">🇨🇦</div>
+            <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=600&auto=format&fit=crop&q=80" alt="Canada" loading="lazy">
+            <div class="export-flag" title="Canada">🇨🇦</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_canada">Kanada</h3>
+            <h3 class="export-card-title" data-i18n="country_canada">Canada</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Vancouver</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_canada">VCO &amp; Kelapa Parut Kering</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_canada">Specialty Grade Toraja Arabica</span>
             </div>
           </div>
         </div>
 
-        <!-- 13. Perancis -->
+        <!-- 13. France -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&auto=format&fit=crop&q=80" alt="Perancis" loading="lazy">
-            <div class="export-flag" title="Perancis">🇫🇷</div>
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&auto=format&fit=crop&q=80" alt="France" loading="lazy">
+            <div class="export-flag" title="France">🇫🇷</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_france">Perancis</h3>
+            <h3 class="export-card-title" data-i18n="country_france">France</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Le Havre</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_france">Minyak Kelapa &amp; Biji Pala</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_france">Fine Robusta &amp; Toraja Specialty Arabica</span>
             </div>
           </div>
         </div>
 
-        <!-- 14. Italia -->
+        <!-- 14. Italy -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1529260830199-42c24126f198?w=600&auto=format&fit=crop&q=80" alt="Italia" loading="lazy">
-            <div class="export-flag" title="Italia">🇮🇹</div>
+            <img src="https://images.unsplash.com/photo-1529260830199-42c24126f198?w=600&auto=format&fit=crop&q=80" alt="Italy" loading="lazy">
+            <div class="export-flag" title="Italy">🇮🇹</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_italy">Italia</h3>
+            <h3 class="export-card-title" data-i18n="country_italy">Italy</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Genoa</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_italy">Cengkeh &amp; Rempah Aromatik</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_italy">Toraja Robusta (Espresso Blend Grade)</span>
             </div>
           </div>
         </div>
 
-        <!-- 15. Turki -->
+        <!-- 15. Turkey -->
         <div class="export-card">
           <div class="export-card-img">
-            <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=600&auto=format&fit=crop&q=80" alt="Turki" loading="lazy">
-            <div class="export-flag" title="Turki">🇹🇷</div>
+            <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=600&auto=format&fit=crop&q=80" alt="Turkey" loading="lazy">
+            <div class="export-flag" title="Turkey">🇹🇷</div>
           </div>
           <div class="export-card-content">
-            <h3 class="export-card-title" data-i18n="country_turkey">Turki</h3>
+            <h3 class="export-card-title" data-i18n="country_turkey">Turkey</h3>
             <div class="export-card-port">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
               <span>Port of Istanbul &amp; Ambarli</span>
             </div>
             <div class="export-card-commodity">
-              <b data-i18n="lbl_commodities">Komoditas Utama:</b>
-              <span data-i18n="comm_turkey">Briket Arang Batok Kelapa</span>
+              <b data-i18n="lbl_commodities">Main Supply:</b>
+              <span data-i18n="comm_turkey">Toraja Green Coffee Beans for Roaster Blends</span>
             </div>
           </div>
         </div>
@@ -590,33 +589,33 @@
 <section id="galeri">
   <div class="container">
     <div class="section-head center">
-      <span class="eyebrow" data-i18n="gallery_eyebrow">Galeri</span>
-      <h2 data-i18n="gallery_title">Dokumentasi produk &amp; proses produksi kami</h2>
+      <span class="eyebrow" data-i18n="gallery_eyebrow">Gallery</span>
+      <h2 data-i18n="gallery_title">Harvest, Processing &amp; Export Operations</h2>
     </div>
     <div class="gallery-grid" id="galleryGrid">
-      <div class="gallery-item tall" title="Sortir Rempah Pilihan">
-        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=700&auto=format&fit=crop&q=80" alt="Sortir Rempah Pilihan" loading="lazy">
+      <div class="gallery-item tall" title="Toraja Highland Coffee Plantation">
+        <img src="images/coffe-plant.jpg" alt="Toraja Coffee Plantation" loading="lazy">
       </div>
-      <div class="gallery-item" title="Kayu Manis Grade Ekspor">
-        <img src="https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=800&auto=format&fit=crop&q=80" alt="Kayu Manis Kering Ekspor" loading="lazy">
+      <div class="gallery-item" title="Toraja Arabica Green Coffee Beans">
+        <img src="images/toraja-arabica-special grade.jpg" alt="Toraja Arabica Green Beans" loading="lazy">
       </div>
-      <div class="gallery-item" title="Olahan Kelapa & Parut Kering">
-        <img src="https://images.unsplash.com/photo-1544378730-8b5104b18790?w=800&auto=format&fit=crop&q=80" alt="Olahan Kelapa Parut Kering" loading="lazy">
+      <div class="gallery-item" title="Toraja Robusta Green Coffee Beans">
+        <img src="images/toraja-robusta-specialgrade.jpg" alt="Toraja Robusta Green Beans" loading="lazy">
       </div>
-      <div class="gallery-item" title="Briket Arang Batok Kelapa">
-        <img src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=800&auto=format&fit=crop&q=80" alt="Arang Batok Kelapa & Briket" loading="lazy">
+      <div class="gallery-item" title="Quality Inspection &amp; Cupping Brief">
+        <img src="images/brief.jpg" alt="Coffee Inspection Brief" loading="lazy">
       </div>
-      <div class="gallery-item" title="Koleksi Rempah Asli Nusantara">
-        <img src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?w=800&auto=format&fit=crop&q=80" alt="Rempah Nusantara Berkualitas" loading="lazy">
+      <div class="gallery-item" title="Selective Coffee Harvesting">
+        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80" alt="Coffee Cherries Harvest" loading="lazy">
       </div>
-      <div class="gallery-item tall" title="Gudang & Penyimpanan Logistik Ekspor">
-        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=700&auto=format&fit=crop&q=80" alt="Gudang Logistik Rempah & Kelapa" loading="lazy">
+      <div class="gallery-item tall" title="Coffee Warehouse &amp; Storage">
+        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=700&auto=format&fit=crop&q=80" alt="Green Coffee Warehouse" loading="lazy">
       </div>
-      <div class="gallery-item" title="Kontrol Mutu & Pengemasan">
-        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop&q=80" alt="Kontrol Kualitas & Pengemasan" loading="lazy">
+      <div class="gallery-item" title="Jute Bag Packaging">
+        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop&q=80" alt="Export Packing" loading="lazy">
       </div>
-      <div class="gallery-item" title="Pengiriman Kargo Pelabuhan Ekspor">
-        <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&auto=format&fit=crop&q=80" alt="Pengiriman Kargo Kontainer Ekspor" loading="lazy">
+      <div class="gallery-item" title="Ocean Container Dispatch">
+        <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&auto=format&fit=crop&q=80" alt="Ocean Container Shipment" loading="lazy">
       </div>
     </div>
   </div>
@@ -627,22 +626,34 @@
   <img src="" alt="" id="lightboxImg">
 </div>
 
-<!-- ===== KONTAK ===== -->
+<!-- ===== CTA / CONTACT ===== -->
 <section id="kontak">
   <div class="container contact-grid">
     <div>
       <div class="section-head">
-        <span class="eyebrow" style="color:var(--gold)" data-i18n="contact_eyebrow">Kontak</span>
-        <h2 data-i18n="contact_title">Mari bermitra dengan kami</h2>
-        <p data-i18n="contact_desc">Punya kebutuhan impor rempah-rempah atau olahan kelapa? Hubungi kami untuk penawaran harga dan sampel produk.</p>
+        <span class="eyebrow" style="color:var(--gold)" data-i18n="contact_eyebrow">Contact</span>
+        <h2 data-i18n="contact_title">Inquire for Pricing &amp; Orders</h2>
+        <p data-i18n="contact_desc">Ready to place a bulk order or need more details? Contact us directly to discuss pricing, request a quote, and finalize your 10-ton MOQ shipment.</p>
       </div>
+
+      <!-- Context Image: brief.jpg -->
+      <div style="margin:20px 0 24px; border-radius:6px; overflow:hidden; border:1px solid rgba(201,161,93,0.3); max-height:200px;">
+        <img src="images/brief.jpg" alt="Toraja Coffee Inquiry & Specification Brief" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+      </div>
+
+      <!-- Action Buttons -->
+      <div style="display:flex; gap:14px; margin-bottom:28px; flex-wrap:wrap;">
+        <a href="https://wa.me/6285872670631" target="_blank" class="btn btn-primary" data-i18n="btn_chat_wa">Chat on WhatsApp</a>
+        <a href="mailto:deanaristaniexport@gmail.com" class="btn btn-outline" style="border-color:var(--gold); color:var(--cream);" data-i18n="btn_email_us">Email Us</a>
+      </div>
+
       <div class="contact-info">
         <div class="item">
           <div class="ic">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 5a2 2 0 0 1 2-2h3l2 5-2 1a11 11 0 0 0 5 5l1-2 5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 5z"/></svg>
           </div>
           <div>
-            <h4>WhatsApp</h4>
+            <h4>WhatsApp Business</h4>
             <p><a href="https://wa.me/6285872670631" target="_blank" style="color:inherit;">+62 858-7267-0631</a></p>
           </div>
         </div>
@@ -651,7 +662,7 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7l9 6 9-6M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg>
           </div>
           <div>
-            <h4>Email</h4>
+            <h4>Official Email</h4>
             <p><a href="mailto:deanaristaniexport@gmail.com" style="color:inherit;">deanaristaniexport@gmail.com</a></p>
           </div>
         </div>
@@ -660,32 +671,33 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
           </div>
           <div>
-            <h4 data-i18n="contact_address_label">Alamat</h4>
-            <p>Jln nasional III Brunggendis rt09/03, Sukaraja, Kec. Sindangkasih, Kabupaten Ciamis, Jawa Barat 46268</p>
+            <h4 data-i18n="contact_address_label">Export Office</h4>
+            <p>Jln nasional III Brunggendis rt09/03, Sukaraja, Kec. Sindangkasih, Kabupaten Ciamis, Jawa Barat 46268, Indonesia</p>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Quick Message Form -->
     <div class="contact-card">
-      <h3 data-i18n="form_title">Kirim Pesan Cepat</h3>
-      <p data-i18n="form_desc">Isi form berikut, pesan akan langsung terkirim ke WhatsApp kami.</p>
+      <h3 data-i18n="form_title">Direct Inquiry Form</h3>
+      <p data-i18n="form_desc">Send your requirements directly to our WhatsApp Business desk.</p>
       <form id="waForm">
         <div class="form-row">
-          <label for="namaInput" data-i18n="form_name">Nama</label>
-          <input type="text" id="namaInput" placeholder="Nama Anda" data-i18n-placeholder="form_name_ph" required>
+          <label for="namaInput" data-i18n="form_name">Full Name *</label>
+          <input type="text" id="namaInput" placeholder="Your Name / Buyer Representative" data-i18n-placeholder="form_name_ph" required>
         </div>
         <div class="form-row">
-          <label for="perusahaanInput" data-i18n="form_company">Perusahaan</label>
-          <input type="text" id="perusahaanInput" placeholder="Nama perusahaan (opsional)" data-i18n-placeholder="form_company_ph">
+          <label for="perusahaanInput" data-i18n="form_company">Company &amp; Country</label>
+          <input type="text" id="perusahaanInput" placeholder="Company Name, Country" data-i18n-placeholder="form_company_ph">
         </div>
         <div class="form-row">
-          <label for="pesanInput" data-i18n="form_message">Pesan</label>
-          <textarea id="pesanInput" placeholder="Produk yang ingin ditanyakan, jumlah, tujuan negara, dll." data-i18n-placeholder="form_message_ph" required></textarea>
+          <label for="pesanInput" data-i18n="form_message">Inquiry Details *</label>
+          <textarea id="pesanInput" placeholder="State variety (Arabica / Robusta), volume (min 10 MT), target port, CIF/FOB..." data-i18n-placeholder="form_message_ph" required></textarea>
         </div>
         <button type="submit" class="btn btn-wa">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-          <span data-i18n="form_submit">Kirim via WhatsApp</span>
+          <span data-i18n="btn_chat_wa">Chat on WhatsApp</span>
         </button>
       </form>
     </div>
@@ -700,28 +712,29 @@
         <div class="logo-text">
           <b>DEANARIS TANI EXPORT</b>
         </div>
-        <p data-i18n="footer_desc">Eksportir rempah-rempah dan olahan kelapa asli Indonesia, dipercaya mitra dagang di berbagai negara.</p>
+        <p data-i18n="footer_desc">Specialist exporter of premium Toraja Semi-Washed Arabica and Robusta green coffee beans from Indonesia to global roasters.</p>
       </div>
       <div class="footer-links">
-        <h4 data-i18n="footer_nav">Navigasi</h4>
+        <h4 data-i18n="footer_nav">Navigation</h4>
         <ul>
-          <li><a href="#beranda" data-i18n="nav_home">Beranda</a></li>
-          <li><a href="#profil" data-i18n="nav_profile">Profil</a></li>
-          <li><a href="#produk" data-i18n="nav_products">Produk</a></li>
-          <li><a href="#destinasi" data-i18n="nav_destination">Destinasi Ekspor</a></li>
-          <li><a href="#galeri" data-i18n="nav_gallery">Galeri</a></li>
-          <li><a href="#kontak" data-i18n="nav_contact">Kontak</a></li>
+          <li><a href="#beranda" data-i18n="nav_home">Home</a></li>
+          <li><a href="#profil" data-i18n="nav_profile">About Us</a></li>
+          <li><a href="#keunggulan" data-i18n="nav_terms">Trade Terms</a></li>
+          <li><a href="#produk" data-i18n="nav_products">Products</a></li>
+          <li><a href="#destinasi" data-i18n="nav_destination">Export Destinations</a></li>
+          <li><a href="#galeri" data-i18n="nav_gallery">Gallery</a></li>
+          <li><a href="#kontak" data-i18n="nav_contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-links">
-        <h4 data-i18n="footer_products">Produk</h4>
+        <h4 data-i18n="footer_products">Products</h4>
         <ul>
-          <li><a href="#produk" data-i18n="tab_spices">Rempah-Rempah</a></li>
-          <li><a href="#produk" data-i18n="tab_coconut">Olahan Kelapa</a></li>
+          <li><a href="#produk">Toraja Arabica (Specialty)</a></li>
+          <li><a href="#produk">Toraja Robusta (Special Grade)</a></li>
         </ul>
       </div>
       <div class="footer-links">
-        <h4 data-i18n="nav_contact">Kontak</h4>
+        <h4 data-i18n="nav_contact">Contact</h4>
         <ul>
           <li><a href="https://wa.me/6285872670631" target="_blank">+62 858-7267-0631</a></li>
           <li><a href="mailto:deanaristaniexport@gmail.com">deanaristaniexport@gmail.com</a></li>
@@ -729,8 +742,8 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p data-i18n="footer_copyright">&copy; 2026 PT Deanaris Tani Export. Seluruh hak cipta dilindungi.</p>
-      <p data-i18n="footer_made">Dibuat dengan bangga di Indonesia</p>
+      <p data-i18n="footer_copyright">&copy; 2026 PT Deanaris Tani Export. All rights reserved.</p>
+      <p data-i18n="footer_made">Direct from Toraja Highlands, Indonesia</p>
     </div>
   </div>
 </footer>
@@ -738,39 +751,39 @@
 <!-- ===== PRODUCT INQUIRY MODAL ===== -->
 <div class="modal-overlay" id="productModal" role="dialog" aria-modal="true" aria-hidden="true">
   <div class="modal-dialog">
-    <button class="modal-close" id="modalCloseBtn" aria-label="Tutup">&times;</button>
+    <button class="modal-close" id="modalCloseBtn" aria-label="Close">&times;</button>
     <div class="modal-header">
       <span class="eyebrow" data-i18n="modal_eyebrow">WhatsApp Business Inquiry</span>
-      <h3 data-i18n="modal_title">Pesan / Diskusi Produk</h3>
-      <p data-i18n="modal_desc">Hubungi langsung WhatsApp Bisnis kami untuk konsultasi spesifikasi, ketersediaan stok, dan penawaran harga ekspor.</p>
+      <h3 data-i18n="modal_title">Inquire / Order Coffee</h3>
+      <p data-i18n="modal_desc">Connect directly with our WhatsApp Business desk for pricing, specifications, and FOB/CIF trade negotiations.</p>
     </div>
     <div class="modal-product-summary">
-      <img id="modalProductImg" src="" alt="Thumbnail Produk">
+      <img id="modalProductImg" src="" alt="Selected Coffee">
       <div>
-        <h4 id="modalProductTitle">Nama Produk</h4>
-        <span id="modalProductGrade">Grade Ekspor A</span>
+        <h4 id="modalProductTitle">Product Title</h4>
+        <span id="modalProductGrade">Grade Specs</span>
       </div>
     </div>
     <form id="productInquiryForm">
       <div class="form-row">
-        <label for="buyerName" data-i18n="modal_name_label">Nama Lengkap *</label>
-        <input type="text" id="buyerName" placeholder="Nama Anda / Buyer Name" data-i18n-placeholder="modal_name_ph" required>
+        <label for="buyerName" data-i18n="modal_name_label">Full Name *</label>
+        <input type="text" id="buyerName" placeholder="Your Name / Buyer Representative" data-i18n-placeholder="modal_name_ph" required>
       </div>
       <div class="form-row">
-        <label for="buyerCompany" data-i18n="modal_company_label">Perusahaan &amp; Negara Asal</label>
-        <input type="text" id="buyerCompany" placeholder="Contoh: Global Spices Ltd, Jerman" data-i18n-placeholder="modal_company_ph">
+        <label for="buyerCompany" data-i18n="modal_company_label">Company &amp; Destination Country *</label>
+        <input type="text" id="buyerCompany" placeholder="E.g. Nordic Roasters, Germany" data-i18n-placeholder="modal_company_ph" required>
       </div>
       <div class="form-row">
-        <label for="buyerVolume" data-i18n="modal_volume_label">Estimasi Kebutuhan / Volume</label>
-        <input type="text" id="buyerVolume" placeholder="Contoh: 1 Kontainer 20ft / 5 Ton / Sampel" data-i18n-placeholder="modal_volume_ph">
+        <label for="buyerVolume" data-i18n="modal_volume_label">Estimated Volume (MOQ: 10 Metric Tons)</label>
+        <input type="text" id="buyerVolume" placeholder="E.g. 10 MT (1 FCL) / 20 MT / Sample request" data-i18n-placeholder="modal_volume_ph">
       </div>
       <div class="form-row">
-        <label for="buyerNotes" data-i18n="modal_notes_label">Pesan / Catatan Tambahan</label>
-        <textarea id="buyerNotes" placeholder="Spesifikasi kadar air, persyaratan kemasan, pelabuhan tujuan..." data-i18n-placeholder="modal_notes_ph"></textarea>
+        <label for="buyerNotes" data-i18n="modal_notes_label">Trade Notes / Specific Requirements</label>
+        <textarea id="buyerNotes" placeholder="Delivery term preference (FOB/CIF), target discharge port, target shipment timeline..." data-i18n-placeholder="modal_notes_ph"></textarea>
       </div>
       <button type="submit" class="modal-btn-submit">
         <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.9 1.6 1.8 2.2 3.1 2.9.2.1.4.1.5-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.5.2.5.4.1.2.1.7 0 1.4z"/></svg>
-        <span data-i18n="modal_submit_btn">Kirim ke WhatsApp Bisnis (085872670631)</span>
+        <span data-i18n="modal_submit_btn">Chat on WhatsApp (+62 858-7267-0631)</span>
       </button>
     </form>
   </div>
@@ -781,155 +794,285 @@
   const translations = {
     en: {
       nav_home: "Home",
-      nav_profile: "Profile",
+      nav_profile: "About Us",
+      nav_terms: "Trade Terms",
       nav_products: "Products",
       nav_destination: "Export Destinations",
       nav_gallery: "Gallery",
       nav_contact: "Contact",
 
-      hero_title: 'Trader of spices &amp; coconut products, <em>genuinely made in Indonesia</em>',
-      hero_desc: "Connecting the finest harvests of the archipelago with the world — selected, processed, and shipped to export-grade standards.",
-      hero_btn_products: "View Our Products",
-      hero_btn_contact: "Contact Us",
+      hero_title: "Premium Toraja Green Coffee Beans",
+      hero_desc: "Exporting special grade Semi-Washed Arabica and Robusta directly from the highlands of Toraja, Indonesia. Meticulously processed for the global market.",
+      hero_btn_pricing: "Get Latest Price",
+      hero_btn_products: "View Products",
 
-      profile_eyebrow: "Company Profile",
-      profile_badge: "Export destination countries",
-      profile_p1: '<b>PT Deanaris Tani Export</b> is an exporter of spices and coconut products committed to delivering genuinely Indonesian goods to international quality standards. Every raw material is sourced directly from our best local farmers, through a strict selection and processing process.',
-      profile_p2: 'We believe trading partner trust is built on consistent quality and process transparency. That\'s why we operate as an exporter you can <b>rely on</b>, prioritizing product quality with every shipment — from the farm to buyers around the world.',
-      stat_years: "Years of Experience",
-      stat_partners: "Trading Partners",
-      stat_local: "Genuine Local Ingredients",
+      profile_eyebrow: "About Us",
+      profile_title: "Export-Quality Toraja Coffee",
+      profile_badge: "Toraja Origin",
+      profile_p1: "We specialize in supplying premium green coffee beans strictly from the Toraja region. By focusing purely on Semi-Washed processing, we maintain the authentic, bold, and clean flavor profiles that international roasters demand. With a commitment to quality and consistency, we are ready to fulfill high-volume export requirements for your coffee business.",
+      stat_cup: "Cup Score (Arabica)",
+      stat_moq: "Minimum Order (MOQ)",
+      stat_moisture: "Moisture Content",
 
-      why_eyebrow: "Why Choose Us",
-      why_title: "Quality standards that keep our partners coming back",
-      feat1_title: "Premium Quality",
-      feat1_desc: "Products are hand-picked and sorted to ensure only the best reaches our export partners.",
-      feat2_title: "Trusted Exporter",
-      feat2_desc: "Experienced in handling cross-border shipments with transparent documentation and communication.",
-      feat3_title: "Sourced Directly From Farmers",
-      feat3_desc: "Direct partnerships with local farmers preserve authentic flavor and support producer livelihoods.",
+      why_eyebrow: "Trade Specifications",
+      why_title: "Export Capabilities &amp; Trade Terms",
+      feat1_title: "Minimum Order Quantity (MOQ)",
+      feat1_desc: "10 Metric Tons. Fulfilling commercial bulk roasting and international green coffee distribution needs.",
+      feat2_title: "Pricing",
+      feat2_desc: "Highly competitive pricing available upon request. Contact us via WhatsApp or Email.",
+      feat3_title: "Delivery Terms",
+      feat3_desc: "FOB (Recommended). Open to discussing CIF based on specific requirements.",
+      feat4_title: "Payment Terms",
+      feat4_desc: "T/T (Telegraphic Transfer). 50% Down Payment to secure the order, 50% balance payable upon issuance of the Bill of Lading (B/L).",
+      feat5_title: "Export Documentation",
+      feat5_desc: "Fully prepared and compliant. Ready with Certificate of Origin (COO), Phytosanitary Certificate, B/L, Commercial Invoice & Packing List.",
+      feat6_title: "Packaging",
+      feat6_desc: "Standard export 60kg jute bags with optional protective GrainPro liners to safeguard freshness.",
 
-      process_eyebrow: "Our Workflow",
-      process_title: "Our export process, from farm to port",
-      proc1_title: "Raw Material Sorting",
-      proc1_desc: "Spices and coconut are sourced directly from partner farmers to strict quality standards.",
-      proc2_title: "Quality Control",
-      proc2_desc: "Moisture, aroma, and cleanliness are checked before processing begins.",
-      proc3_title: "Packaging",
-      proc3_desc: "Packed neatly and securely for the demands of long-distance export shipping.",
-      proc4_title: "Shipping",
-      proc4_desc: "Complete documentation and tracked delivery all the way to the destination.",
+      process_eyebrow: "Quality Workflow",
+      process_title: "From Toraja Highlands to Global Ports",
+      proc1_title: "Selective Harvesting",
+      proc1_desc: "Only mature, red coffee cherries handpicked from high-altitude Toraja volcanic soils.",
+      proc2_title: "Semi-Washed Hulling",
+      proc2_desc: "Pulping and wet-hulling to preserve authentic earthy undertones and vibrant acidity.",
+      proc3_title: "Drying & Sorting",
+      proc3_desc: "Sun-dried to maximum 12% moisture with multi-stage screen grading and defect sorting.",
+      proc4_title: "Export Packaging",
+      proc4_desc: "Packed in 60kg jute bags with complete export documentation and prompt ocean freight dispatch.",
 
       products_eyebrow: "Our Products",
-      products_title: "Premium spices &amp; export-grade coconut products",
-      products_desc: "Our two core product lines, processed to a consistent quality standard for international markets.",
-      tab_spices: "Spices",
-      tab_coconut: "Coconut Products",
-      prod_cengkeh: "Dried Cloves",
-      prod_kayumanis: "Cinnamon",
-      prod_pala: "Nutmeg",
-      prod_lada: "Black Pepper",
-      grade_a: "Export Grade A",
-      prod_vco: "Virgin Coconut Oil (VCO)",
-      prod_vco_sub: "Cold Pressed",
-      prod_desiccated: "Desiccated Coconut",
-      prod_desiccated_sub: "Desiccated Coconut",
-      prod_gula: "Coconut Sugar",
-      prod_gula_sub: "Organic",
-      prod_arang: "Coconut Shell Charcoal",
-      prod_arang_sub: "Export Briquette",
-      btn_order_inquire: "Order / Inquire",
+      products_title: "Toraja Green Coffee Beans",
+      products_desc: "Cultivated in the fertile highlands of South Sulawesi, our Toraja Arabica and Robusta green coffee beans deliver exceptional character for specialty roasters worldwide.",
+      tab_all: "All Varieties",
+      tab_arabica: "Toraja Arabica",
+      tab_robusta: "Toraja Robusta",
+      prod_arabica_title: "Toraja Arabica",
+      prod_arabica_specs: "Specialty Grade (Cup Score 80+) | Semi-Washed (Wet-Hulled) | Moisture: Max 12%",
+      prod_arabica_desc: "Cultivated in high altitudes, offering a well-balanced body, bright acidity, and deep notes of dark chocolate and fruit.",
+      prod_robusta_title: "Toraja Robusta",
+      prod_robusta_specs: "Special Grade Export | Semi-Washed | Moisture: Max 12%",
+      prod_robusta_desc: "A bold, heavy-bodied bean with a clean cup, delivering strong, earthy, and rich nutty notes perfect for espresso blends.",
+      btn_order_inquire: "Inquire / Order",
 
       destinasi_eyebrow: "Global Reach",
-      destinasi_title: "15 Export Destination Countries",
-      destinasi_desc: "Our commitment to quality ensures PT Deanaris Tani Export's spices and coconut products are trusted by partners across continents.",
-      lbl_commodities: "Primary Commodities:",
+      destinasi_title: "15 Global Export Destinations",
+      destinasi_desc: "Supplying premium Toraja green coffee beans to roasters, specialty importers, and distributors across continents.",
+      lbl_commodities: "Main Supply:",
       country_japan: "Japan",
-      comm_japan: "Dried Cloves, VCO & Selected Spices",
+      comm_japan: "Toraja Arabica Specialty Grade (Cup 80+)",
       country_germany: "Germany",
-      comm_germany: "Desiccated Coconut & Nutmeg",
+      comm_germany: "Semi-Washed Arabica & Robusta Green Beans",
       country_usa: "United States",
-      comm_usa: "Coconut Charcoal Briquettes & Coconut Sugar",
+      comm_usa: "Bulk Toraja Arabica Specialty & Espresso Robusta",
       country_netherlands: "Netherlands",
-      comm_netherlands: "Dried Cloves, Black Pepper & VCO",
+      comm_netherlands: "European Hub Distribution - Toraja Arabica",
       country_uae: "United Arab Emirates",
-      comm_uae: "Shisha Coconut Charcoal & Spices",
+      comm_uae: "Specialty Grade Arabica & Heavy Robusta",
       country_china: "China",
-      comm_china: "Coconut Products, Cinnamon & Nutmeg",
+      comm_china: "Commercial Bulk Green Coffee Beans",
       country_korea: "South Korea",
-      comm_korea: "VCO, Coconut Sugar & Nutmeg",
+      comm_korea: "Single Origin Toraja Arabica Specialty",
       country_singapore: "Singapore",
-      comm_singapore: "Selected Spices & Desiccated Coconut",
+      comm_singapore: "Toraja Semi-Washed Arabica & Robusta",
       country_saudi: "Saudi Arabia",
-      comm_saudi: "Coconut Shell Charcoal & Cloves",
+      comm_saudi: "Toraja Green Coffee Beans (60kg Jute Bags)",
       country_australia: "Australia",
-      comm_australia: "Organic VCO & Dried Spices",
+      comm_australia: "Specialty Grade Toraja Arabica 80+",
       country_uk: "United Kingdom",
-      comm_uk: "Organic Coconut Sugar & Cinnamon",
+      comm_uk: "Toraja Specialty Arabica Single Origin",
       country_canada: "Canada",
-      comm_canada: "VCO & Desiccated Coconut",
+      comm_canada: "Specialty Grade Toraja Arabica",
       country_france: "France",
-      comm_france: "Coconut Oil & Grade A Nutmeg",
+      comm_france: "Fine Robusta & Toraja Specialty Arabica",
       country_italy: "Italy",
-      comm_italy: "Cloves & Aromatic Spices",
+      comm_italy: "Toraja Robusta (Espresso Blend Grade)",
       country_turkey: "Turkey",
-      comm_turkey: "Coconut Shell Charcoal Briquettes",
-
-      modal_eyebrow: "WhatsApp Business Inquiry",
-      modal_title: "Order / Inquire Product",
-      modal_desc: "Connect directly with our WhatsApp Business for inquiries on specifications, stock availability, and export pricing.",
-      modal_name_label: "Full Name *",
-      modal_name_ph: "Your name / Buyer Name",
-      modal_company_label: "Company & Destination Country",
-      modal_company_ph: "E.g. Global Spices Ltd, Germany",
-      modal_volume_label: "Estimated Volume / Quantity",
-      modal_volume_ph: "E.g. 1 20ft FCL / 5 Tons / Samples",
-      modal_notes_label: "Inquiry / Additional Notes",
-      modal_notes_ph: "Moisture specs, packaging needs, discharge port...",
-      modal_submit_btn: "Inquire via WhatsApp Business (085872670631)",
+      comm_turkey: "Toraja Green Coffee Beans for Roaster Blends",
 
       gallery_eyebrow: "Gallery",
-      gallery_title: "A look at our products &amp; production process",
+      gallery_title: "Harvest, Processing & Export Operations",
 
       contact_eyebrow: "Contact",
-      contact_title: "Let's partner with us",
-      contact_desc: "Need to import spices or coconut products? Contact us for pricing and product samples.",
-      contact_address_label: "Address",
-      form_title: "Send a Quick Message",
-      form_desc: "Fill in the form below, your message will go straight to our WhatsApp.",
-      form_name: "Name",
-      form_name_ph: "Your name",
-      form_company: "Company",
-      form_company_ph: "Company name (optional)",
-      form_message: "Message",
-      form_message_ph: "Products you're interested in, quantity, destination country, etc.",
-      form_submit: "Send via WhatsApp",
+      contact_title: "Inquire for Pricing & Orders",
+      contact_desc: "Ready to place a bulk order or need more details? Contact us directly to discuss pricing, request a quote, and finalize your 10-ton MOQ shipment.",
+      contact_address_label: "Export Office",
+      btn_chat_wa: "Chat on WhatsApp",
+      btn_email_us: "Email Us",
 
-      footer_desc: "Exporter of genuinely Indonesian spices and coconut products, trusted by trading partners worldwide.",
+      form_title: "Direct Inquiry Form",
+      form_desc: "Send your requirements directly to our WhatsApp Business desk.",
+      form_name: "Full Name *",
+      form_name_ph: "Your Name / Buyer Representative",
+      form_company: "Company & Country",
+      form_company_ph: "Company Name, Country",
+      form_message: "Inquiry Details *",
+      form_message_ph: "State variety (Arabica / Robusta), volume (min 10 MT), target port, CIF/FOB...",
+
+      modal_eyebrow: "WhatsApp Business Inquiry",
+      modal_title: "Inquire / Order Coffee",
+      modal_desc: "Connect directly with our WhatsApp Business desk for pricing, specifications, and FOB/CIF trade negotiations.",
+      modal_name_label: "Full Name *",
+      modal_name_ph: "Your Name / Buyer Representative",
+      modal_company_label: "Company & Destination Country *",
+      modal_company_ph: "E.g. Nordic Roasters, Germany",
+      modal_volume_label: "Estimated Volume (MOQ: 10 Metric Tons)",
+      modal_volume_ph: "E.g. 10 MT (1 FCL) / 20 MT / Sample request",
+      modal_notes_label: "Trade Notes / Specific Requirements",
+      modal_notes_ph: "Delivery term preference (FOB/CIF), target discharge port, target shipment timeline...",
+      modal_submit_btn: "Chat on WhatsApp (+62 858-7267-0631)",
+
+      footer_desc: "Specialist exporter of premium Toraja Semi-Washed Arabica and Robusta green coffee beans from Indonesia to global roasters.",
       footer_nav: "Navigation",
       footer_products: "Products",
       footer_copyright: "&copy; 2026 PT Deanaris Tani Export. All rights reserved.",
-      footer_made: "Proudly made in Indonesia"
+      footer_made: "Direct from Toraja Highlands, Indonesia"
+    },
+    id: {
+      nav_home: "Beranda",
+      nav_profile: "Profil",
+      nav_terms: "Ketentuan Ekspor",
+      nav_products: "Produk",
+      nav_destination: "Destinasi Ekspor",
+      nav_gallery: "Galeri",
+      nav_contact: "Kontak",
+
+      hero_title: "Biji Kopi Hijau Toraja Kualitas Ekspor",
+      hero_desc: "Mengekspor biji kopi Arabika dan Robusta Semi-Washed kelas khusus langsung dari dataran tinggi Toraja, Indonesia. Diproses cermat untuk pasar global.",
+      hero_btn_pricing: "Dapatkan Harga Terbaru",
+      hero_btn_products: "Lihat Produk Kopi",
+
+      profile_eyebrow: "Tentang Kami",
+      profile_title: "Kopi Toraja Mutu Ekspor",
+      profile_badge: "Asli Toraja",
+      profile_p1: "Kami berspesialisasi dalam memasok biji kopi hijau premium khusus dari wilayah Toraja. Dengan berfokus murni pada pengolahan Semi-Washed, kami menjaga profil rasa otentik, kuat, dan bersih yang dibutuhkan oleh roaster internasional. Dengan komitmen terhadap kualitas dan konsistensi, kami siap memenuhi kebutuhan ekspor volume tinggi untuk bisnis kopi Anda.",
+      stat_cup: "Skor Cup (Arabika)",
+      stat_moq: "Pesanan Minimum (MOQ)",
+      stat_moisture: "Kadar Air Maksimum",
+
+      why_eyebrow: "Spesifikasi Perdagangan",
+      why_title: "Kemampuan Ekspor &amp; Ketentuan Perdagangan",
+      feat1_title: "Minimum Order Quantity (MOQ)",
+      feat1_desc: "10 Metric Tons. Siap memenuhi kebutuhan roastery komersial dan distributor kopi hijau dunia.",
+      feat2_title: "Harga",
+      feat2_desc: "Harga sangat kompetitif tersedia berdasarkan permintaan. Hubungi kami melalui WhatsApp atau Email.",
+      feat3_title: "Ketentuan Pengiriman",
+      feat3_desc: "FOB (Direkomendasikan). Terbuka untuk diskusi CIF sesuai kebutuhan spesifik mitra dagang.",
+      feat4_title: "Syarat Pembayaran",
+      feat4_desc: "T/T (Telegraphic Transfer). DP 50% untuk kepastian pesanan, pelunasan sisa 50% setelah penerbitan Bill of Lading (B/L).",
+      feat5_title: "Dokumentasi Ekspor",
+      feat5_desc: "Lengkap dan taat regulasi: Certificate of Origin (COO), Sertifikat Fitosanitari, B/L, Commercial Invoice & Packing List.",
+      feat6_title: "Kemasan",
+      feat6_desc: "Karung goni standar ekspor 60kg dengan lapisan pelindung GrainPro untuk menjaga kesegaran selama transit laut.",
+
+      process_eyebrow: "Alur Mutu",
+      process_title: "Dari Dataran Tinggi Toraja ke Pelabuhan Dunia",
+      proc1_title: "Panen Selektif",
+      proc1_desc: "Hanya ceri merah matang yang dipetik langsung oleh petani mitra di ketinggian Toraja.",
+      proc2_title: "Pengupasan Semi-Washed",
+      proc2_desc: "Depulping dan wet-hulling untuk mempertahankan rasa khas Toraja yang tebal dan kaya.",
+      proc3_title: "Penjemuran & Sortir",
+      proc3_desc: "Dijemur matahari hingga kadar air maksimal 12% dengan pemilahan cacat manual & mekanis.",
+      proc4_title: "Kemasan & Pengiriman",
+      proc4_desc: "Dikemas rapi dalam karung goni 60kg siap kontainer dengan dokumen ekspor lengkap.",
+
+      products_eyebrow: "Produk Kami",
+      products_title: "Biji Kopi Hijau Toraja",
+      products_desc: "Ditanam di ketinggian tanah vulkanik Sulawesi Selatan, menghasilkan karakter aroma dan cita rasa unik untuk roaster dunia.",
+      tab_all: "Semua Varietas",
+      tab_arabica: "Toraja Arabica",
+      tab_robusta: "Toraja Robusta",
+      prod_arabica_title: "Toraja Arabica",
+      prod_arabica_specs: "Specialty Grade (Cup Score 80+) | Semi-Washed (Wet-Hulled) | Kadar Air: Maks 12%",
+      prod_arabica_desc: "Ditanam di dataran tinggi, menawarkan bodi seimbang, keasaman cerah, serta sentuhan rasa dark chocolate dan buah yang mendalam.",
+      prod_robusta_title: "Toraja Robusta",
+      prod_robusta_specs: "Special Grade Export | Semi-Washed | Kadar Air: Maks 12%",
+      prod_robusta_desc: "Biji kopi dengan bodi tebal dan bersih, menghadirkan aroma tanah yang kuat dan sentuhan nutty gurih yang sempurna untuk espresso blend.",
+      btn_order_inquire: "Pesan / Diskusi",
+
+      destinasi_eyebrow: "Jangkauan Global",
+      destinasi_title: "15 Negara Tujuan Ekspor Kopi",
+      destinasi_desc: "Memasok biji kopi hijau Toraja pilihan untuk roastery dan importir kopi di berbagai belahan dunia.",
+      lbl_commodities: "Komoditas Pasokan:",
+      country_japan: "Jepang",
+      comm_japan: "Toraja Arabica Specialty Grade (Cup 80+)",
+      country_germany: "Jerman",
+      comm_germany: "Semi-Washed Arabica & Robusta Green Beans",
+      country_usa: "Amerika Serikat",
+      comm_usa: "Toraja Arabica Specialty & Espresso Robusta",
+      country_netherlands: "Belanda",
+      comm_netherlands: "Hub Distribusi Eropa - Toraja Arabica",
+      country_uae: "Uni Emirat Arab",
+      comm_uae: "Specialty Arabica & Robusta Blend",
+      country_china: "Tiongkok",
+      comm_china: "Pasokan Komersial Biji Kopi Hijau",
+      country_korea: "Korea Selatan",
+      comm_korea: "Single Origin Toraja Arabica Specialty",
+      country_singapore: "Singapura",
+      comm_singapore: "Toraja Semi-Washed Arabica & Robusta",
+      country_saudi: "Arab Saudi",
+      comm_saudi: "Biji Kopi Hijau Toraja Karung 60kg",
+      country_australia: "Australia",
+      comm_australia: "Specialty Grade Toraja Arabica 80+",
+      country_uk: "Britania Raya",
+      comm_uk: "Toraja Specialty Arabica Single Origin",
+      country_canada: "Kanada",
+      comm_canada: "Specialty Grade Toraja Arabica",
+      country_france: "Perancis",
+      comm_france: "Fine Robusta & Toraja Specialty Arabica",
+      country_italy: "Italia",
+      comm_italy: "Toraja Robusta (Grade Espresso Blend)",
+      country_turkey: "Turki",
+      comm_turkey: "Biji Kopi Toraja untuk Campuran Roaster",
+
+      gallery_eyebrow: "Galeri Operasional",
+      gallery_title: "Panen, Pengolahan & Logistik Ekspor",
+
+      contact_eyebrow: "Kontak",
+      contact_title: "Pemesanan & Negosiasi Harga",
+      contact_desc: "Siap melakukan pemesanan massal atau butuh sampel dan informasi lebih rinci? Hubungi kami langsung untuk penawaran harga FOB/CIF pesanan 10 ton MOQ Anda.",
+      contact_address_label: "Kantor Operasional",
+      btn_chat_wa: "Chat on WhatsApp",
+      btn_email_us: "Email Us",
+
+      form_title: "Kirim Permintaan Cepat",
+      form_desc: "Kirim rincian kebutuhan langsung ke WhatsApp Business kami.",
+      form_name: "Nama Lengkap *",
+      form_name_ph: "Nama Anda / Perwakilan Pembeli",
+      form_company: "Perusahaan & Negara",
+      form_company_ph: "Nama Perusahaan, Negara",
+      form_message: "Rincian Kebutuhan *",
+      form_message_ph: "Varietas kopi (Arabika / Robusta), volume (min 10 MT), pelabuhan tujuan, CIF/FOB...",
+
+      modal_eyebrow: "WhatsApp Business Inquiry",
+      modal_title: "Pesan / Diskusi Kopi",
+      modal_desc: "Terhubung langsung dengan meja WhatsApp Bisnis kami untuk penawaran harga ekspor, spesifikasi, dan jadwal pengiriman.",
+      modal_name_label: "Nama Lengkap *",
+      modal_name_ph: "Nama Anda / Perwakilan Pembeli",
+      modal_company_label: "Perusahaan & Negara Asal *",
+      modal_company_ph: "Contoh: Nordic Roasters, Jerman",
+      modal_volume_label: "Estimasi Kebutuhan (MOQ: 10 Metric Tons)",
+      modal_volume_ph: "Contoh: 10 MT (1 Kontainer) / 20 MT / Permintaan Sampel",
+      modal_notes_label: "Catatan Tambahan & Spesifikasi",
+      modal_notes_ph: "Preferensi FOB/CIF, pelabuhan tujuan, target waktu pengiriman...",
+      modal_submit_btn: "Chat on WhatsApp (+62 858-7267-0631)",
+
+      footer_desc: "Eksportir spesialis biji kopi hijau Semi-Washed Arabika dan Robusta Toraja dari Indonesia untuk roastery dunia.",
+      footer_nav: "Navigasi",
+      footer_products: "Produk",
+      footer_copyright: "&copy; 2026 PT Deanaris Tani Export. Seluruh hak cipta dilindungi.",
+      footer_made: "Langsung dari Dataran Tinggi Toraja, Indonesia"
     }
   };
 
-  let currentLang = 'id';
-  const originalContent = {}; // cache of default (id) content, keyed by element index
+  let currentLang = 'en';
 
   function applyLanguage(lang){
     currentLang = lang;
-    document.querySelectorAll('[data-i18n]').forEach((el, idx) => {
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
       const key = el.getAttribute('data-i18n');
       const isHtml = el.getAttribute('data-i18n-html') === 'true';
 
-      if(!(idx in originalContent)){
-        originalContent[idx] = isHtml ? el.innerHTML : el.textContent;
-      }
-
-      if(lang === 'id'){
-        if(isHtml) el.innerHTML = originalContent[idx];
-        else el.textContent = originalContent[idx];
-      } else if(translations[lang] && translations[lang][key] !== undefined){
+      if(translations[lang] && translations[lang][key] !== undefined){
         if(isHtml) el.innerHTML = translations[lang][key];
         else el.textContent = translations[lang][key];
       }
@@ -937,14 +1080,8 @@
 
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
       const key = el.getAttribute('data-i18n-placeholder');
-      if(lang === 'id'){
-        // restore from the static HTML placeholder already present as fallback
-        if(el.dataset.originalPlaceholder) el.placeholder = el.dataset.originalPlaceholder;
-      } else {
-        if(!el.dataset.originalPlaceholder) el.dataset.originalPlaceholder = el.placeholder;
-        if(translations[lang] && translations[lang][key] !== undefined){
-          el.placeholder = translations[lang][key];
-        }
+      if(translations[lang] && translations[lang][key] !== undefined){
+        el.placeholder = translations[lang][key];
       }
     });
 
@@ -1000,7 +1137,7 @@
       const cat = tab.dataset.cat;
       cards.forEach(c=>{
         c.classList.remove('show');
-        if(c.classList.contains(cat)) c.classList.add('show');
+        if(cat === 'all' || c.classList.contains(cat)) c.classList.add('show');
       });
     });
   });
@@ -1030,9 +1167,9 @@
     const nama = document.getElementById('namaInput').value;
     const perusahaan = document.getElementById('perusahaanInput').value;
     const pesan = document.getElementById('pesanInput').value;
-    let text = `Halo PT Deanaris Tani Export, saya *${nama}*`;
-    if(perusahaan) text += ` dari *${perusahaan}*`;
-    text += `.\n\nPesan: ${pesan}`;
+    let text = `Hello PT Deanaris Tani Export, I am *${nama}*`;
+    if(perusahaan) text += ` from *${perusahaan}*`;
+    text += `.\n\nInquiry details:\n${pesan}`;
     const url = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
   });
@@ -1050,8 +1187,8 @@
   document.querySelectorAll('.btn-product-order').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
-      const prodName = btn.getAttribute('data-prod') || 'Produk Ekspor';
-      const prodGrade = btn.getAttribute('data-grade') || 'Grade Ekspor A';
+      const prodName = btn.getAttribute('data-prod') || 'Toraja Green Coffee Beans';
+      const prodGrade = btn.getAttribute('data-grade') || 'Specialty Grade Export';
       const prodImg = btn.getAttribute('data-img') || '';
 
       activeProduct = { name: prodName, grade: prodGrade };
@@ -1089,12 +1226,13 @@
     const volume = document.getElementById('buyerVolume').value.trim();
     const notes = document.getElementById('buyerNotes').value.trim();
 
-    let text = `Halo PT Deanaris Tani Export, saya ingin berdiskusi mengenai pemesanan produk:\n\n`;
-    text += `📦 *Produk:* ${activeProduct.name} (${activeProduct.grade})\n`;
-    text += `👤 *Nama:* ${name}\n`;
-    if(company) text += `🏢 *Perusahaan / Negara:* ${company}\n`;
-    if(volume) text += `⚖️ *Estimasi Kuantitas:* ${volume}\n`;
-    if(notes) text += `📝 *Pesan / Catatan:* ${notes}\n`;
+    let text = `Hello PT Deanaris Tani Export, I would like to inquire about ordering Toraja Green Coffee Beans:\n\n`;
+    text += `☕ *Product:* ${activeProduct.name}\n`;
+    text += `📋 *Grade & Specs:* ${activeProduct.grade}\n`;
+    text += `👤 *Buyer Name:* ${name}\n`;
+    if(company) text += `🏢 *Company & Country:* ${company}\n`;
+    if(volume) text += `⚖️ *Estimated Volume:* ${volume}\n`;
+    if(notes) text += `📝 *Trade Notes / Port:* ${notes}\n`;
 
     const url = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
